@@ -1,0 +1,74 @@
+
+.classes-section{
+     margin-top: 96px;
+}
+.classes-content {
+    display: flex;
+    gap: 15px;
+    margin-top: 65px;
+
+}
+
+.classes-texts {
+    max-width: 566px;
+    width: 100%;
+    position: relative;
+}
+
+.classes-decors {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.classes-swiper {
+    position: relative;
+}
+
+.classes-texts > :not(:last-child) {
+    margin: 0 0 30px 0;
+}
+
+.classes-decor {
+    position: absolute;
+}
+
+.classes-decor--one {
+
+    width: 12px;
+    height: 12px;
+    top: 0;
+    right: 260px;
+}
+
+.classes-decor--two {
+    top: 80px;
+    left: 0;
+}
+
+.classes-decor--tree {
+    top: 130px;
+    left: 200px;
+
+}
+
+.classes-decor--for {
+    top: 30px;
+    right: 50px;
+}
+
+.classes-media {
+    max-width: 537px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.classes-media img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px;
+    height: 379px;
+    cursor: pointer;
+
+}

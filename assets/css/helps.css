@@ -1,0 +1,15 @@
+
+
+.helps-section{
+ margin-top: 140px;
+}
+.helps-title{
+     max-width: 608px;
+    margin: 0 auto;
+}
+.helps-texts{
+     margin-top: 20px;
+}
+.helps-texts >:not(:last-child){
+     margin: 0 0 40px 0 ;
+}

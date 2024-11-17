@@ -1,0 +1,84 @@
+
+.main {
+  overflow: hidden;
+}
+.section {
+    margin-top: 96px;
+}
+
+.G_container {
+    max-width: 1125px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn-red {
+
+    border-radius: 100px;
+    background: rgb(182, 9, 73);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    transition: .3s;
+    cursor: pointer;
+    font-family: 'a_FuturaRound';
+
+}
+.btn-red:hover{
+    color: #000000;
+    opacity: .8;
+}
+.section-title{
+    color: rgb(182, 9, 73);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+}
+.btn-dark-red{
+    border-radius: 40px;
+    font-family: 'a_FuturaRound';
+    background: rgb(137, 7, 55);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 39px;
+    transition: .3s;
+    position: relative;
+    z-index: 2;
+
+}
+.btn-dark-red:hover{
+    color: #000000;
+    opacity: .8;
+}
+.content-title{
+    color: rgb(182, 9, 73);
+    font-family: 'a_FuturaRound';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+}
+.content-sub-title{
+    color: rgb(0, 0, 0);
+    font-family: 'a_FuturaRound';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+}
+.swiper-pagination-bullet{
+    width: 12px !important;
+    height: 12px !important;
+    background-color: inherit !important;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255) !important;
+    opacity: inherit !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: rgb(255, 255, 255) !important;
+
+}

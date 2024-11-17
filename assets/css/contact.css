@@ -1,0 +1,107 @@
+#map {
+    width: 100%;
+    height: 570.21px;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.gmnoprint, .gm-fullscreen-control {
+    display: none !important;
+}
+
+.contact-section {
+    margin-top: 51px;
+}
+
+.contact-content {
+    position: relative;
+    margin-top: 47px;
+
+}
+
+.contact-info {
+    max-width: 331px;
+    width: 100%;
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 30%;
+    z-index: 100;
+    border-radius: 20px;
+    background: rgb(228, 101, 142);
+}
+
+.contact-info > :not(:last-child) {
+    margin: 0 0 30px 0;
+
+}
+
+.contact-location {
+    margin-top: 10px;
+}
+
+.info-text {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    font-family: 'a_FuturaRound';
+    max-width: 294px;
+}
+
+.contact-hint {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+
+    line-height: 15px;
+    text-align: center;
+    max-width: 103px;
+}
+
+.contact-info-mobile {
+    display: none;
+}
+
+.reviews-list {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 12px;
+}
+
+/*.reviews-list::-webkit-scrollbar {*/
+/*    height: 4px;*/
+/*}*/
+
+/*.reviews-list::-webkit-scrollbar-thumb {*/
+/*    background-color: rgba(0, 0, 0, 0.2);*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.reviews-list::-webkit-scrollbar-track {*/
+/*    background-color: rgba(0, 0, 0, 0.1);*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.reviews-item {
+    padding: 18px 12px;
+    border-radius: 50px;
+    background: rgb(246, 246, 246);
+    max-width: 267px;
+    width: 100%;
+    flex-shrink: 0
+}
+
+.reviews-item img {
+    mix-blend-mode: multiply;
+}

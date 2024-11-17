@@ -1,0 +1,25 @@
+<svg width="630.723633" height="361.575928" viewBox="0 0 630.724 361.576" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_385_1619_dd" x="0.000000" y="0.000000" width="630.723633" height="361.575928" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="5" dy="10"/>
+			<feGaussianBlur stdDeviation="10"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.10196 0 0 0 0 1 0 0 0 0.051 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_385_1619_dd)">
+		<ellipse id="Ellipse 26" cx="323.333252" cy="162.680908" rx="136.195496" ry="142.680984" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<ellipse id="Ellipse 27" cx="438.450195" cy="221.051514" rx="102.146606" ry="94.039734" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<ellipse id="Ellipse 28" cx="530.868652" cy="212.943604" rx="64.854988" ry="59.990868" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<ellipse id="Ellipse 30" cx="226.050293" cy="261.585205" rx="64.854988" ry="59.990868" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<ellipse id="Ellipse 31" cx="115.796875" cy="224.292480" rx="90.796982" ry="68.097748" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<ellipse id="Ellipse 29" cx="180.651855" cy="167.546387" rx="51.883991" ry="59.990868" fill="#FFFFFF" fill-opacity="1.000000"/>
+	</g>
+</svg>

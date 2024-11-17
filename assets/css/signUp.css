@@ -1,0 +1,184 @@
+.sign-up-section .G_container {
+    position: relative;
+
+}
+
+.sign-up-red-section {
+    margin-top: 100px;
+}
+
+.sign-up-cloud {
+    position: absolute;
+    top: 370px;
+    left: -250px;
+    z-index: 2;
+    max-height: 300px;
+    height: 100%;
+}
+
+.sign-up_body {
+    border-radius: 40px;
+    padding: 40px 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.sign-up-bg-gray {
+    background: rgb(251, 215, 203);
+
+}
+
+.sign-up-bg-red {
+    background: rgb(241, 178, 199);
+}
+
+.sign-up_media {
+    position: relative;
+    flex: 0 1 50%;
+
+}
+
+.sign-up-picture {
+    position: relative;
+    z-index: 2;
+}
+
+.sign-up-decor {
+    position: absolute;
+}
+
+.decor-dots {
+    left: 250px;
+    top: 200px;
+    max-width: 232px;
+}
+
+.for-days--one {
+    left: -40px;
+    top: 40px;
+    width: 20px;
+    height: 20px;
+}
+
+.for-days--two {
+    right: 70px;
+    top: 40px;
+
+}
+
+.for-days--tree {
+    right: 0;
+    top: 180px;
+    width: 20px;
+    height: 20px;
+}
+
+.sign-up_text > :not(:last-child) {
+    margin: 0 0 20px 0;
+}
+
+.sign-up-title {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    max-width: 370px;
+    font-family: 'a_FuturaRound';
+
+}
+
+.sign-up_description {
+    max-width: 387px;
+    flex: 0 1 50%;
+}
+
+.sign-up_info {
+    max-width: 310px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    font-family: 'a_FuturaRound';
+
+}
+
+.sign-up_form {
+    margin-top: 69px;
+}
+
+.form-title {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    font-family: 'a_FuturaRound';
+}
+
+.form-input {
+    margin-top: 8px;
+}
+
+.form-input input {
+    min-height: 66px;
+    max-width: 386px;
+    width: 100%;
+    padding: 10px 38px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    font-family: 'a_FuturaRound';
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.form-btn {
+    margin-top: 11px;
+    min-height: 66px;
+    max-width: 386px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+}
+
+.hint {
+    margin-top: 11px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+    font-family: 'a_FuturaRound';
+
+}
+
+.hint::after {
+    content: '';
+    height: 1px;
+    display: block;
+    width: 50%;
+    background: #000000;
+}
+
+.form-input input::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'a_FuturaRound';
+
+}

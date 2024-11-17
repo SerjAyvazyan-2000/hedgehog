@@ -1,0 +1,116 @@
+
+.header {
+    min-height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 101;
+    background: white;
+}
+
+.header-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:22px;
+    padding-top: 26px;
+    padding-bottom: 22px;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.menu ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'a_FuturaRound';
+    transition: .3s;
+    cursor: pointer;
+
+}
+.menu ul li a:hover{
+    color: rgb(241, 178, 199);
+
+}
+.sign-up{
+    max-width: 196px;
+    padding: 16px;
+    width: 100%;
+    min-height: 50px;
+}
+.sign-up-mobile{
+    display: none;
+}
+.burger {
+    flex: 0 0 36px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .burger::before {
+        content: '';
+        display: block;
+        height: 2px;
+        border-radius: 3px;
+        background: rgb(204, 9, 85);
+        transition: .3s;
+        width: 30px;
+    }
+
+    .burger::after {
+        content: '';
+        display: block;
+        height: 2px;
+        border-radius: 3px;
+        background: rgb(204, 9, 85);
+        transition: .3s;
+        width: 30px;
+
+    }
+
+    .burger span {
+        display: block;
+        width: 30px;
+        height: 2px;
+        border-radius: 3px;
+        background: rgb(204, 9, 85);
+        transition: .3s;
+    }
+
+    .burger.active.burger::after {
+        transform: rotate(-45deg);
+        width: 30px;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .burger.active.burger::before {
+        transform: rotate(45deg);
+        position: relative;
+        top: 6px;
+    }
+
+    .burger.active.burger span {
+        transform: scale(0);
+
+    }
+}
+

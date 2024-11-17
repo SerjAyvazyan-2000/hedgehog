@@ -1,0 +1,46 @@
+
+
+@font-face {
+    font-family: 'Cornpile Lt ';
+    src: url('cornpilelt_regular.woff');
+    src: local('cornpilelt_regular'), local('cornpilelt_regular'),
+    url('cornpilelt_regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cornpile Lt ';
+    src: url('cornpilerg_bold.woff');
+    src: local('cornpilerg_bold'), local('cornpilerg_bold'),
+    url('cornpilerg_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_FuturaRound';
+    src: url('AFuturaRoundBold.woff');
+    src: local('AFuturaRoundBold'), local('AFuturaRoundBold'),
+    url('AFuturaRoundBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_FuturaRound';
+    src: url('AFuturaRoundItalic.woff');
+    src: local('AFuturaRoundItalic.woff'), local('a_FuturaRound'),
+    url('AFuturaRoundItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'a_FuturaRound';
+    src: url('AFuturaRound.woff');
+    src: local('AFuturaRound.woff'), local('a_FuturaRound'),
+    url('AFuturaRound.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

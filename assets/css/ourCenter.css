@@ -1,0 +1,48 @@
+.our-center-section {
+    margin-top: -5px;
+}
+
+.our-center-title {
+    color: rgb(182, 9, 73);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    position: absolute;
+    max-width: 234px;
+    z-index: 2;
+}
+
+.our-center_body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.slider_content {
+    overflow: hidden;
+}
+
+.swiper-button-next::after {
+    width: 55px !important;
+    height: 55px !important;
+    display: none;
+
+}
+
+.swiper-button-prev::after {
+    display: none;
+    width: 55px !important;
+    height: 55px !important;
+}
+
+
+.swiper-button-prev {
+    width: 55px !important;
+    height: 55px !important;
+}
+
+.swiper-button-next {
+    width: 55px !important;
+    height: 55px !important;
+}

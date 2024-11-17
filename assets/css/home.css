@@ -1,0 +1,108 @@
+
+.main-section {
+    min-height: 610px;
+    width: 100%;
+    position: relative;
+    /*max-width: 1920px;*/
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_body {
+    position: relative;
+}
+
+.main-media {
+    position: absolute;
+    right: -120px;
+    top: 0;
+}
+
+.main-texts {
+    padding-top: 60px;
+    position: absolute;
+    z-index: 2;
+}
+
+.main-title {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    max-width: 600px;
+}
+
+.main-sub-title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    max-width: 529px;
+    font-family: 'a_FuturaRound';
+    margin-top: 59px;
+
+}
+
+
+.main-btn {
+    max-width: 252px;
+    width: 100%;
+    min-height: 60px;
+    margin-top: 54px;
+
+}
+
+.main_decors {
+    position: absolute;
+    width: 100%;
+}
+
+.cloud_decor {
+    position: absolute;
+    z-index: 1;
+
+}
+
+.cloud-decor--one {
+    top: 370px;
+    left: 160px;
+}
+/*.cloud-decor--one {*/
+/*    top: 400px;*/
+/*    left: 320px;*/
+/*}*/
+.cloud-decor--two {
+    top: 340px;
+    right: -700px;
+
+}
+
+.cloud_bg {
+    top: 220px;
+    position: absolute;
+    left: 400px;
+}
+
+.vector_bg {
+    position: absolute;
+}
+
+.vector-bg--one {
+    top: 100px;
+    left: 600px;
+}
+
+.cloud-decor--tree {
+    top: 340px;
+    left: -800px;
+
+}
+
+.vector-bg--two {
+    top: 100px;
+    right: -200px;
+}

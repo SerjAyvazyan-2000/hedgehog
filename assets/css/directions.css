@@ -1,0 +1,174 @@
+
+.directions-section {
+    margin-top: 230px;
+}
+
+.directions_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.directions_content {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.directions-button {
+    max-width: 379px;
+    width: 100%;
+    min-height: 80px;
+    padding: 0 25px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.directions_list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.directions-item {
+    color: rgb(137, 7, 55);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    max-width: 200px;
+    font-family: 'a_FuturaRound';
+
+}
+
+.directions-item::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(137, 7, 55);
+    bottom: 5px;
+    left: 0;
+    position: absolute;
+}
+
+.directions-item--one {
+    position: absolute;
+    top: 200px;
+    left: -70px;
+}
+
+.directions-item--two {
+    bottom: 110px;
+    left: -180px;
+    position: absolute;
+}
+
+.directions-item--tree {
+    position: absolute;
+    top: 200px;
+    right: -70px;
+}
+
+.directions-item--for {
+    bottom: 110px;
+    position: absolute;
+    max-width: 167px;
+    right: -180px;
+}
+
+.directions-media {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.directions-kid-picture {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.directions_list_mobile {
+    display: none;
+}
+
+
+.directions-decor {
+    position: absolute;
+    max-width: 100px;
+
+}
+
+.directions-decor--one {
+    left: 20px;
+    bottom: 130px;
+}
+
+.directions-decor--two {
+    right: 20px;
+    bottom: 80px;
+}
+
+.directions-decor--tree {
+    right: 130px;
+    bottom: 250px;
+}
+
+.directions-decor--for {
+    display: none;
+}
+
+.directions-decor--five {
+    display: none;
+
+}
+
+.directions_stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.directions_star {
+    position: absolute;
+}
+
+.directions_star--one {
+    right: 80px;
+    top: 200px;
+}
+
+.directions_star--two {
+    left: 30px;
+    top: 150px;
+}
+
+.directions_star--tree {
+    left: 200px;
+    top: 250px;
+}
+
+.directions_star--for {
+    right: 200px;
+    top: 260px;
+}
+
+.directions_star--five {
+    right: 0;
+    top: 460px;
+}
+
+.directions_star--six {
+    left: 0;
+    top: 500px;
+}
